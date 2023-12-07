@@ -100,3 +100,11 @@ delete '/likes/:id' do
     like.destroy
     redirect(back)
 end
+
+before '/profile' do
+    erb(:profile)
+end
+
+get '/profile' do
+    erb(:profile)
+end

@@ -1,15 +1,15 @@
 records = [
   {
-    user: { username: "wholesome_spongebob", avatar_url: "https://live.staticflickr.com/65535/52358606250_01c667c5da_w.jpg", email: "sharky_j@gmail.com", password: "abcd" },
-    post: { photo_url: "https://live.staticflickr.com/65535/52358421508_786aa10e2c_c.jpg"}
+    user: { username: "wholesome_spongebob", avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUV6iIw6tNQARMJZ2rZ7uVHtJr0-wH1Nu0dQ&usqp=CAU", email: "spongebob@gmail.com", password: "squarepants" },
+    post: { photo_url: "https://wallpapers.com/images/hd/cute-aesthetic-spongebob-cartoon-6m3a3fmyqfb2tsrq.jpg"}
   },
   {
-    user: { username: "puny.plankton4", avatar_url: "https://live.staticflickr.com/65535/52358421348_f34c7996b1.jpg", email: "kirk_w@gmail.com", password: "abcd" },
-    post: { photo_url: "https://live.staticflickr.com/65535/52357237337_1cc718f6a7_4k.jpg"}
+    user: { username: "puny.plankton4", avatar_url: "https://i.pinimg.com/564x/e0/e2/8a/e0e28acf97e84b001e858e19c10bf3a9.jpg", email: "plankton@gmail.com", password: "karen" },
+    post: { photo_url: "https://i.pinimg.com/originals/9c/a3/80/9ca3805548f5e783733cfbc5a998ba32.jpg"}
   },
   {
-    user: { username: "marlin_peppa", avatar_url: "https://live.staticflickr.com/65535/52358415933_0a0e6bc35f_3k.jpg", email: "marlin_p@gmail.com", password: "abcd" },
-    post: { photo_url: "https://live.staticflickr.com/65535/52358494794_f88b160d15_4k.jpg"}
+    user: { username: "handsome-squidward", avatar_url: "https://i.pinimg.com/originals/e4/d9/50/e4d950f1332f136e7f9a21d6e499e949.jpg", email: "squidward@gmail.com", password: "clarinet" },
+    post: { photo_url: "https://media.tenor.com/lQ87s0dLeRYAAAAC/clarinet-squidward.gif"}
   }
 ]
 
@@ -27,3 +27,4 @@ records.each do |record|
       puts "-- Seeded a FinstagramPost for User: #{user.username}"
     end
   end
+  
